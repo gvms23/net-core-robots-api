@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Api", "src\Kodo.Robots.Api\Kodo.Robots.Api.csproj", "{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Domain", "src\Kodo.Robots.Domain\Kodo.Robots.Domain.csproj", "{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Infra.Data", "src\Kodo.Robots.Infra\Kodo.Robots.Infra.Data.csproj", "{AE358C70-BACD-480B-BB94-85DF29E4D7D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Test", "00 - Test", "{3F61B53A-EC9A-47ED-B3C7-AC9C8DAD00E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Test", "test\Kodo.Robots.Test\Kodo.Robots.Test.csproj", "{37085E9F-A03E-493A-A581-382C7E2F7061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Api", "01 - Api", "{FE0067F2-1BAB-4C49-A315-3D079EADB07C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{1FCB32B4-A449-46B5-B9EC-0378E4132E40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{AC83C1A9-EF74-4AC1-B9E6-B2E74515CC0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.1 - Data", "03.1 - Data", "{C6C30299-CC40-4A0E-A14C-4CBABC9A150F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.2 - CrossCutting", "03.2 - CrossCutting", "{C394F5E5-2EDF-445B-86FA-EDB42BDDCC5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Infra.CrossCutting.Swagger", "src\Kodo.Robots.Infra.CrossCutting.Swagger\Kodo.Robots.Infra.CrossCutting.Swagger.csproj", "{C14A1E4B-A524-454D-ADD9-12DE00390EDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kodo.Robots.Infra.CrossCutting.IoC", "src\Kodo.Robots.Infra.CrossCutting.IoC\Kodo.Robots.Infra.CrossCutting.IoC.csproj", "{404BD336-3170-4442-8464-ADC50765B8EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodo.Robots.Domain.Core", "src\Kodo.Robots.Domain.Core\Kodo.Robots.Domain.Core.csproj", "{0735B8C2-351A-45BC-85BF-D4365E568737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE358C70-BACD-480B-BB94-85DF29E4D7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE358C70-BACD-480B-BB94-85DF29E4D7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE358C70-BACD-480B-BB94-85DF29E4D7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE358C70-BACD-480B-BB94-85DF29E4D7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37085E9F-A03E-493A-A581-382C7E2F7061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37085E9F-A03E-493A-A581-382C7E2F7061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37085E9F-A03E-493A-A581-382C7E2F7061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37085E9F-A03E-493A-A581-382C7E2F7061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C14A1E4B-A524-454D-ADD9-12DE00390EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14A1E4B-A524-454D-ADD9-12DE00390EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14A1E4B-A524-454D-ADD9-12DE00390EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14A1E4B-A524-454D-ADD9-12DE00390EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404BD336-3170-4442-8464-ADC50765B8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404BD336-3170-4442-8464-ADC50765B8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404BD336-3170-4442-8464-ADC50765B8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404BD336-3170-4442-8464-ADC50765B8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0735B8C2-351A-45BC-85BF-D4365E568737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0735B8C2-351A-45BC-85BF-D4365E568737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0735B8C2-351A-45BC-85BF-D4365E568737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0735B8C2-351A-45BC-85BF-D4365E568737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA01DF6-7E5B-4E2A-9509-A7DB52C01BA6} = {FE0067F2-1BAB-4C49-A315-3D079EADB07C}
+		{ED0A4352-FC2F-4FB3-B4C5-EBE79B534B03} = {1FCB32B4-A449-46B5-B9EC-0378E4132E40}
+		{AE358C70-BACD-480B-BB94-85DF29E4D7D8} = {C6C30299-CC40-4A0E-A14C-4CBABC9A150F}
+		{37085E9F-A03E-493A-A581-382C7E2F7061} = {3F61B53A-EC9A-47ED-B3C7-AC9C8DAD00E8}
+		{C6C30299-CC40-4A0E-A14C-4CBABC9A150F} = {AC83C1A9-EF74-4AC1-B9E6-B2E74515CC0D}
+		{C394F5E5-2EDF-445B-86FA-EDB42BDDCC5A} = {AC83C1A9-EF74-4AC1-B9E6-B2E74515CC0D}
+		{C14A1E4B-A524-454D-ADD9-12DE00390EDF} = {C394F5E5-2EDF-445B-86FA-EDB42BDDCC5A}
+		{404BD336-3170-4442-8464-ADC50765B8EE} = {C394F5E5-2EDF-445B-86FA-EDB42BDDCC5A}
+		{0735B8C2-351A-45BC-85BF-D4365E568737} = {1FCB32B4-A449-46B5-B9EC-0378E4132E40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8930C572-C33B-4552-8D94-57E4FA8B3E4C}
+	EndGlobalSection
+EndGlobal
